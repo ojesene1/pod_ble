@@ -1,0 +1,19 @@
+name: pod_ble_example
+description: Bench-test app for the pod BLE link (scan, connect, watch step records).
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ^3.3.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pod_ble_client:
+    path: ../
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,20 @@
+name: pod_ble_client
+description: BLE client for the WB pod's Step Record Service. Contract in protocol/GATT.md.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.3.0
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # FlutterBluePlus License: free for personal, nonprofit and educational use;
+  # commercial use needs a paid licence. See README before any commercial spin-off.
+  flutter_blue_plus: ^2.3.14
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0

@@ -1,0 +1,26 @@
+# Rust
+target/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+pubspec.lock
+!mobile/pod_ble_client/example/pubspec.lock
+*.iml
+mobile/**/ios/Pods/
+mobile/**/ios/.symlinks/
+mobile/**/android/.gradle/
+mobile/**/android/local.properties
+mobile/**/ios/Flutter/Generated.xcconfig
+mobile/**/ios/Flutter/flutter_export_environment.sh
+
+# Editors / OS
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
